@@ -1,0 +1,22 @@
+name: backdoor_flutter_example
+description: A new Flutter project, Demonstrating backdoor_flutter package
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  backdoor_flutter:
+    git: https://github.com/gktirkha/backdoor_flutter
+    
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

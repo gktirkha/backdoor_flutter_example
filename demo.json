@@ -1,0 +1,17 @@
+{
+    "apps": {
+        "test-paid": {
+            "status": 1
+        },
+        "test-unpaid": {
+            "status": 0,
+            "expiryDate": "2023-10-13",
+            "message": "The Payment of app is not done",
+            "maxLaunch":"-1",
+            "developerDetails": {
+                "name": "Gautam",
+                "email": "gautam@gtirkha.com"
+            }
+        }
+    }
+}
